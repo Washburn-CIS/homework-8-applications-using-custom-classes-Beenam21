@@ -25,8 +25,13 @@ public class GradeBook {
             System.out.println();
             switch(choice) {
                 case "1": // TODO: write a loop that, for each student prints 
-                          //       lname, fname: grade 
-                    continue;
+                   for(int i=0; i<1; i++)
+                         {   for(Student stud: students)
+                        System.out.println( stud.getLastName() + ", " + stud.getFirstName() + ": " + stud.getGrade()  );
+                    } 
+                         
+                    break;                                //   lname, fname: grade 
+                    
                 case "2":
                     System.out.println("Goodbye!");
                     return;
